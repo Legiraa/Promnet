@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informasi Git, GitHub, dan Git Bash</title>
+    <style>
+        body {  
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            text-align: justify; 
+            font-family: Times new roman, sans-serif; 
+        }
+
+        ul, ol { 
+            padding-left: 20px;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        center {
+            display: block;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        pre {
+            background-color: #f4f4f47a;
+            padding: 10px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+        }
+    </style>
+</head>
+<body>
+</head>
+<body>
+    <ul>
+        <h4>Nama    : Legira Putri Alina Sidik</h4> <!--h ini fungsinya menebalkan h1 (paling besar) -->
+        <h4>NIM     : 2200047</h4>
+        <h4>Kelas   : 3A PSTI</h4>
+        <h4>Tugas   : 2</h4>
+    </ul>
+
+    <center>
+        <br> 
+        <b style="font-size: 20px;">GIT</b><br> <!--untuk ukuran teks -->
+    </center>
+
+    <center>
+        <img src="git.png" alt="Git" style="width: 300px; height:auto;"> <!--untuk memasukan gambar -->
+    </center>
+
+    <h3>A. Pengertian</h3>
+    <ul>
+        <li>Menurut Linus Torvalds (Pencipta Git):</li>
+        <p>Git adalah sistem kontrol versi yang sangat cepat dan sangat efisien dengan dukungan untuk distribusi 
+            non-linear penuh (ribuan cabang bersamaan dengan ratusan ribu pengecekan) yang sangat cocok untuk proyek besar seperti kernel Linux.</p>
+        <li>Menurut Scott Chacon (Penulis buku "Pro Git"):</li>
+        <p>Git adalah alat manajemen kode sumber yang dirancang untuk sangat cepat dan sangat efisien. Ini adalah sistem kontrol versi yang mendistribusikan, yang berarti bahwa alih-alih memiliki satu salinan kode sumber dan riwayatnya di satu tempat, setiap anggota tim memiliki salinan lengkap.</p>
+    </ul>
+
+    <h3>B. Fungsi Git</h3>
+    <ol>
+        <li>Melacak perubahan dalam kode sumber:</li>
+        Git menyimpan riwayat lengkap dari setiap perubahan yang dibuat dalam kode proyek, memungkinkan pengembang untuk mengidentifikasi perubahan spesifik dan kapan perubahan tersebut dilakukan.</p>
+        <li>Kolaborasi tim:</li>
+        Git memungkinkan tim pengembang untuk bekerja secara bersama-sama pada proyek yang sama. Mereka dapat bekerja pada cabang (branch) yang berbeda, menggabungkan perubahan, dan berbagi kode dengan mudah.</p>
+        <li>Menciptakan versi (versioning):</li>
+        Git memungkinkan kalian membuat versi perangkat lunak pada titik tertentu dalam waktu. Ini memudahkan untuk mengembalikan kode ke versi sebelumnya jika terjadi masalah atau untuk merilis versi baru perangkat lunak.</p>
+    </ol>
+
+    <h3>C. Karakteristik Git</h3>
+    <ol>
+        <li>Tersebar (Distributed):</li>
+        Setiap anggota tim memiliki salinan lengkap dari repositori Git, termasuk sejarah perubahan. Ini memungkinkan pengembang untuk bekerja secara independen di repositori lokal mereka.</p>
+        <li>Cepat dan Efisien:</li>
+        Git dirancang untuk bekerja dengan cepat, bahkan pada proyek-proyek besar. Algoritma yang efisien memungkinkan Git mengelola riwayat perubahan dengan efisien.</p>
+        Cabang (Branching):</li>
+        Git mendukung penggunaan cabang yang memungkinkan pengembang untuk bekerja pada fitur atau perbaikan bug baru di cabang terpisah tanpa memengaruhi kode di cabang utama.</p>
+        <li>Merge dan Rebase:</li>
+        Git menyediakan alat untuk menggabungkan perubahan dari cabang yang berbeda, baik dengan menggunakan penggabungan (merge) atau penggabungan ulang (rebase).</p>
+        <li>Riwayat Perubahan (Commit History):</li>
+        Git mencatat setiap perubahan yang dibuat dalam kode sumber, termasuk pesan komit yang menjelaskan tujuan perubahan tersebut.</p>
+        <li>Ketahanan Terhadap Kerusakan Data:</li>
+        Git dirancang untuk mengatasi kerusakan data dan kerusakan yang mungkin terjadi pada repositori.</p>
+    </ol>
+
+        <center>
+            <br>
+            <b style="font-size: 20px;">GITHUB</b><br>
+        </center>
+
+        <center>
+            <img src="github.png" alt="Github" style="width: 300px; height:auto;">
+        </center>
+
+    <h3>A. Pengertian</h3>
+    <ul>
+        <li>Menurut Tom Preston-Werner (Salah satu pendiri GitHub):</li>
+        <p>GitHub adalah layanan hosting web untuk pengembangan perangkat lunak yang memungkinkan kolaborasi dengan menggunakan Git. Ini adalah tempat di mana pengembang dapat menyimpan kode sumber mereka, berkolaborasi dalam proyek, dan berbagi kode dengan dunia.</p>
+        <li>Menurut Situs Resmi GitHub:</li>
+        <p>GitHub adalah platform pengembangan perangkat lunak yang menggunakan Git sebagai sistem kontrol versi untuk mengelola dan menyimpan kode sumber. Ini adalah tempat di mana pengembang dapat berkolaborasi dalam proyek, mengelola riwayat perubahan kode, dan memungkinkan kolaborasi pengembangan perangkat lunak yang efisien.</p>
+    </ul>
+
+    <h3>B. Fungsi GitHub</h3>
+    <ol>
+        <li>Manajemen Repositori:</li>
+        GitHub memungkinkan pengguna untuk membuat repositori Git (proyek perangkat lunak) dan mengelola riwayat perubahan dalam repositori tersebut.</p>
+        <li>Kolaborasi Tim:</li>
+        Pengembang dapat bekerja secara bersama-sama dalam repositori yang sama. Mereka dapat berkontribusi ke proyek dengan mengirim permintaan tarik (pull requests) yang memungkinkan pemilik repositori untuk meninjau dan menggabungkan perubahan.</p>
+        <li>Issue Tracking:</li>
+        GitHub menyediakan sistem pelacakan masalah (issue tracking) yang memungkinkan pengguna untuk melaporkan masalah, perbaikan bug, atau permintaan fitur dalam proyek.</p>
+        <li>Wiki:</li>
+        GitHub menyediakan fitur wiki yang memungkinkan pengguna untuk membuat dan mengelola dokumentasi proyek secara terintegrasi.</p>
+        <li>Papan Proyek (Project Boards):</li>
+        GitHub menyediakan papan proyek yang dapat digunakan untuk mengelola tugas dan mengatur alur kerja pengembangan proyek.</p>
+        <li>GitHub Actions:</li>
+        Ini adalah fitur otomatisasi yang memungkinkan pengguna untuk membuat dan menjalankan alur kerja (workflows) otomatis, seperti pengujian, penerbitan, dan lainnya.</p>
+        <li>Integrasi dengan Berbagai Layanan:</li>
+        GitHub dapat diintegrasikan dengan berbagai alat pengembangan, seperti Jenkins, Travis CI, Docker, dan banyak lagi.</p>
+    </ol>
+
+    <h3>C. Karakteristik GitHub</h3>
+    <ol>
+        <li>Repositori Publik dan Pribadi:</li>
+        GitHub memungkinkan pengguna untuk membuat repositori publik yang dapat diakses oleh siapa saja atau repositori pribadi yang hanya dapat diakses oleh pengguna yang diundang.</p>
+        <li>Kode Sumber Terbuka:</li>
+        Banyak proyek perangkat lunak sumber terbuka disimpan di GitHub, yang memungkinkan komunitas pengembang untuk berkontribusi secara terbuka.</p>
+        <li>Layanan Hosting:</li>
+        GitHub menyimpan repositori Git di cloud, menghilangkan kebutuhan untuk pengelolaan server sendiri.</p>
+        <li>Sistem Keamanan:</li>
+        GitHub menyediakan fitur keamanan yang kuat, termasuk otorisasi akses, otentikasi dua faktor, dan pemantauan keamanan kode.</p>
+        <li>Pengelolaan Kolaborator:</li>
+        Pemilik repositori dapat mengelola siapa saja yang memiliki akses untuk berkontribusi ke repositori mereka.</p>
+        <li>Statistik dan Analisis:</li>
+        GitHub menyediakan statistik tentang aktivitas repositori, kontributor, dan lainnya untuk membantu pengguna memahami perkembangan proyek mereka.</p>
+    </ol>
+
+    <h3>D. Terminologi GitHub</h3>
+    <ol>
+        <li>Repository (Repo):</li>
+        Sama dengan dalam Git, ini adalah tempat penyimpanan utama untuk kode sumber dan sejarah perubahan, tetapi di-hosting di GitHub.</p>
+        <li>Issues:</li>
+        Masalah atau tugas yang digunakan untuk melacak pekerjaan yang harus dilakukan dalam proyek.</p>
+        <li>Wiki:</li>
+        Halaman-halaman dokumentasi yang dapat dibuat dan dikelola oleh pengguna untuk menjelaskan proyek.</p>
+        <li>Project:</li>
+        Papan proyek yang dapat digunakan untuk mengelola dan mengorganisasi tugas-tugas proyek.</p>
+        <li>Gist:</li>
+        Snippet kode sumber yang dapat dibagikan di GitHub.</p>
+        <li>Organization:</li>
+        Akun khusus di GitHub yang dapat digunakan untuk mengelola repositori dan kolaborator.</p>
+        <li>Contributors:</li>
+        Orang-orang yang berkontribusi pada repositori tertentu di GitHub.</p>
+        <li>Star:</li>
+        Tindakan memberikan tanda bintang (star) pada repositori untuk menandai minat pada proyek tersebut.</p>
+        <li>Watch:</li>
+        Tindakan mengikuti repositori untuk menerima pembaruan dan notifikasi terkait proyek.</p>
+        <li>Fork:</li>
+        Sama dengan dalam Git, ini adalah tindakan membuat salinan repositori di GitHub untuk berkontribusi atau bekerja pada proyek.</p>
+        <li>Pull Request (PR):</li>
+        Permintaan yang diajukan oleh kontributor untuk menggabungkan perubahan mereka ke repositori asal.</p>
+    </ol>
+
+    <center>
+        <br>
+        <b style="font-size: 20px;">GIT BASH</b><br>
+    </center>
+
+    <center>
+        <img src="git bash.png" alt="Git bash" style="width: 300px; height:auto;">
+    </center>
+
+    <p>Git Bash adalah sebuah terminal atau shell yang digunakan untuk menjalankan perintah-perintah Git dan perintah-perintah UNIX di sistem operasi Windows. Git Bash merupakan salah satu cara yang populer digunakan oleh pengembang perangkat lunak untuk berinteraksi dengan Git, yang merupakan sistem pengendalian versi yang sangat umum digunakan dalam pengembangan perangkat lunak.</p>
+
+    <p><strong>Hubungan antara Git, Github, dan Git Bash:</strong></p>
+    <ul>
+        <li>Git adalah sistem pengendalian versi yang digunakan untuk mengelola perubahan kode sumber.</li>
+        <li><p>GitHub adalah platform hosting kode sumber yang memanfaatkan Git untuk menyediakan alat kolaborasi, manajemen repositori, dan alur kerja pengembangan yang efisien.</p></li>
+        <li>Git Bash adalah terminal yang digunakan di Windows untuk menjalankan perintah Git dan perintah berbasis UNIX yang diperlukan dalam pengembangan perangkat lunak yang menggunakan Git, terutama ketika bekerja dengan repositori di GitHub.</li>
+    </ul>
+
+    <center>
+        <br>
+        <b style="font-size: 20px;">Tahapan membuat repository baru di akun GitHub</b><br>
+    </center>
+
+    <ol>
+        <li>Masuk ke akun GitHub yang telah dibuat.</li>
+        <li>Klik "New" pada menu utama.</li>
+        <li>Berikan nama pada repository baru kalian.</li>
+        <li>Jika diperlukan, tambahkan deskripsi.</li>
+        <li>Pilih opsi "Public" jika kalian ingin memungkinkan orang lain untuk mengakses repository kalian, atau pilih "Private" jika tidak ingin repository kalian dapat diakses oleh publik.</li>
+    </ol>
+
+    <center>
+        <br>
+        <b style="font-size: 20px;">Cara menyambungkan git ke github</b><br>
+    </center>
+
+    <ol>
+        <li>Buka CMD lalu jalankan Git Bash dengan perintah</li>
+        <pre><code>git --version
+git config --global user.name "legiraa"
+git config --global user.email "legiras26@gmail.com"
+        </code></pre>
+        <li>Pastikan username dan email yang digunakan adalah sesuai dengan yang kalian gunakan saat mendaftar akun GitHub.</li>
+        <li>Selanjutnya, buat folder dengan nama yang sama seperti repository yang telah kalian buat di GitHub.</li>
+        <li>Di dalam folder tersebut, tambahkan file teks (txt) atau masukkan file lain sesuai dengan proyek kalian.</li>
+        <li>Setelah itu, buka terminal Git Bash yang telah kalian sambungkan dengan komputer kalian.</li>
+    </ol>
+
+    <center>
+        <br>
+        <b style="font-size: 20px;">Perintah Dasar Git</b><br>
+    </center>
+
+    <ol>
+        <p><li><code>git init:</code> Perintah ini digunakan untuk menginisialisasi repositori Git baru di direktori. Setelah menjalankan perintah ini, Git akan mulai melacak perubahan dalam direktori tersebut.</li></p>
+        <p><li><code>git status:</code> Perintah ini digunakan untuk melihat status saat ini. Ini memberi tahu tentang perubahan yang belum di-commit, cabang yang aktif, dan banyak informasi lainnya.</li></p>
+        <p><li><code>git log:</code> Perintah ini digunakan untuk melihat local komit dalam repositori. Ini menampilkan daftar semua komit yang telah dibuat beserta informasi seperti ID komit, penulis, tanggal, dan pesan komit.</li></p>
+        <p><li><code>git add:</code> Perintah ini digunakan untuk menambahkan perubahan yang ada dalam direktori kerja ke indeks (staging area). Kalian dapat menambahkan file atau direktori tertentu untuk disiapkan untuk commit.</li></p>
+        <p><li><code>git commit:</code> Perintah ini digunakan untuk membuat komit dari perubahan yang sudah di-staging. Kalian juga harus menyertakan pesan komit yang menjelaskan tujuan atau perubahan yang dilakukan.</li></p>
+        <p><li><code>git push:</code> Perintah ini digunakan untuk mengirimkan komit yang telah dibuat ke repositori jarak jauh (biasanya di server). Ini berguna ketika bekerja dengan repositori yang terpusat seperti yang terdapat di GitHub atau GitLab. Dengan push, perubahan kalian akan tersedia untuk kolaborator lainnya.</li></p>
+        <p><li><code>git remote add origin:</code> digunakan untuk menambahkan remote repository (repositori jarak jauh) ke repositori Git local. Remote repository adalah repositori yang berada di server atau tempat penyimpanan jarak jauh seperti GitHub, GitLab, Bitbucket, atau server Git lainnya. Dengan menambahkan remote repository, kalian dapat menghubungkan repositori Git local dengan repositori jarak jauh tersebut.</li></p>
+    </ol>
+
+    <center>
+        <br>
+        <b style="font-size: 20px;">Git Branching</b><br>
+    </center>
+    
+    <ol>
+        <p><li><code>git branch:</code> Perintah ini digunakan untuk melihat daftar cabang (branch) yang ada dalam repositori Git. Ini juga dapat digunakan untuk membuat cabang baru atau beralih ke cabang yang ada.</li></p>
+        <p><li><code>git fetch:</code> Perintah ini digunakan untuk mengambil semua perubahan dari repositori remote (biasanya GitHub) dan menyimpannya di repositori lokal. Ini tidak akan menggabungkan perubahan ke cabang saat ini, itu hanya mengambil perubahan dan menyimpannya untuk dilihat.</li></p>
+        <p><li><code>git checkout:</code> Perintah ini digunakan untuk beralih antara cabang-cabang yang ada di repositori Git. Ini juga dapat digunakan untuk menciptakan cabang baru dan berpindah ke cabang tersebut.</li></p>
+        <p><li><code>git clone:</code> Perintah ini digunakan untuk menggandakan atau menyalin repositori Git yang ada di repositori remote (GitHub) ke repositori lokal. Ini menciptakan salinan lengkap dari repositori, termasuk semua cabang dan sejarahnya.</li></p>
+        <p><li><code>git pull:</code> Perintah ini digunakan untuk mengambil perubahan dari repositori remote (GitHub) dan menggabungkannya langsung ke cabang saat ini yang ada di repositori local.</li></p>
+    </ol>
+</body>
+</html>
