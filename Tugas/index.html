@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contect="IE-edge">
+    <meta name="viewport" contect="width=device-width, initial-scale=1.0">
+    <title>Pembelajaran HTML</title> <!--Memberikan judul-->
+</head>
+<body>
+    <center>
+        <br> 
+        <b style="font-size: 15px;">HEADING</b><br> <!--untuk ukuran teks, dan teks akan berada di tengah -->
+    </center>
+
+    <h1>h1. Hello World</h1>
+    <h2>h2. Hello World</h2>
+    <h3>h3. Hello World</h3>
+    <h4>h4. Hello World</h4>
+    <h5>h5. Hello World</h5>
+    <h6>h6. Hello World</h6>
+
+    <p>Good Morning <b>Mom and Dad</b></p> <!--Bold-->
+    Good Morning <i>Mom and Dad</i> <!--Miring-->
+    <p>Good Morning <u>Mom and Dad</u></p> <!--Garis Bawah-->
+    <p>3<sup>2</sup></p> <!--Memberikan pangkat/diatas-->
+    <p>H<sub>2</sub>O</p> <!--Memberikan angka dibawah-->
+
+    <!--Jika ingin memberikan komen secara otomatis bisa menekan ctrl /-->
+
+    <center>
+        <br> 
+        <b style="font-size: 15px;">BULLET LIBRARY</b><br> <!--untuk ukuran teks, dan teks akan berada di tengah -->
+    </center>
+
+    <ul type="square">
+        <li>coffe</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ul>
+
+    <ul type="circle">
+        <li>coffe</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ul>
+
+    <center>
+        <br> 
+        <b style="font-size: 15px;">NUMBERING LIBRARY</b><br> <!--untuk ukuran teks, dan teks akan berada di tengah -->
+    </center>
+
+    <ol>
+        <li>coffe</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ol>
+
+    <ol type="I">
+        <li>coffe</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ol>
+        
+    <center>
+        <br> 
+        <b style="font-size: 15px;">TABLE</b><br> <!--untuk ukuran teks, dan teks akan berada di tengah -->
+    </center>
+
+    <table border="1">
+        <tr> <!--table-->
+            <th>No</th>
+            <th>Nama</th> <!--th agar tulisan ditengah kalau td agar dipinggir-->
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Legira Putri</td>
+            <td>PSTI</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Alina Sidik</td>
+            <td>MKB</td>
+        </tr>
+    </table>
+    <p>
+    <table border="1">
+        <tr> <!--table-->
+            <th>No</th> <!--Judul table-->
+            <th>Nama</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td> <!--Isian Data-->
+            <td>Legira Putri</td>
+            <td>PSTI</td>
+        </tr>
+        <tr>
+            <td>Alina Sidik</td>
+            <td>MKB</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td> <!--1 Nomor untuk 2 table-->
+            <td>Legira Putri</td>
+            <td>PGPAUD</td>
+        </tr>
+        <tr>
+            <td>Alina Sidik</td>
+            <td>PGSD</td>
+        </tr>
+        <tr>
+            <td colspan="3">Jumlahnya 2 nama</td> <!--1 nomer ke pinggirnya hanya 1 kalimat-->
+        </tr>
+    </table>
+    </p>
+    
+    <center>
+        <br> 
+        <b style="font-size: 15px;">IMAGE</b><br> <!--untuk ukuran teks, dan teks akan berada di tengah -->
+    </center>
+
+    <P>1. Dari Link Google</P>
+    <img src="https://akcdn.detik.net.id/visual/2021/10/11/jisoo-blackpink_169.png?w=650"alt="">
+    <p>
+    <p>2. Dari File Local Explorer</p>
+    <img src="Jokowi.jpg" alt="Sorry ngga muncul"> 
+    </p>
+
+    <center>
+        <br> 
+        <b style="font-size: 15px;">KLIK</b><br> <!--untuk ukuran teks, dan teks akan berada di tengah -->
+    </center>
+
+    <!--Klik ke alamat (cari di pencarian misal google setelah itu tekan lalu salin tautan)-->
+    <a href="https://www.google.com/?hl=id">ke google</a>
+    <p><a href="https://www.google.com/maps">ke maps</a></p>
+
+    <!--Menyimpan alamat (cari alamat di maps setelah itu tekan bagikan, tekan sematkan peta, setelah itu copy lalu paste dibawah)-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313885.086839508!2d125.23275770000714!3d35.79463258171809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2sKorea%20Selatan!5e0!3m2!1sid!2sid!4v1695281784431!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <center>
+        <br> 
+        <b style="font-size: 15px;">Membuat From</b><br> <!--untuk ukuran teks, dan teks akan berada di tengah -->
+    </center>
+
+    <p>
+    <form>
+        <label for="Nama">Nama  :</label>
+        <input type="Text"><br> <!--Agar dapat mengisi teks-->
+        <label for ="Password">Password :</label>
+        <input type="Password">
+        <input type="checkbox"></br> <!--Ceklis Box-->
+        <label for ="Tanggal">Tanggal :</label>
+        <input type="date"> <!--Otomatis mengisikan pemilihan tanggal-->
+    </form>
+    </p>
+    
+</body>
+</html>    
